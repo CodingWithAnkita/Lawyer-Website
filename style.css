@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    color: white;
+}
+a{
+    text-decoration: none;
+    margin-left: 5rem;
+    color:white;
+}
+.right{
+        margin-right: 3rem;
+        color: white;
+        
+}
+
+.hero1{
+    background-image: url("./gavel-g696454e42_1920.jpg");
+    height: 100vh;
+    background-position:left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:left;
+}
+
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    margin-top: 15rem;
+    color: white;
+}
+
+p{
+    margin-left: 5rem;
+    font-size:20px;
+    margin-top: 12rem;
+}
+h3{
+    font-size: 60px;
+    margin-left: 5rem;
+}
+.btn1{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 20rem;
+    margin-bottom: 10rem;
+    border-radius: 10rem;
+}
+.lower{
+    margin-bottom: 30rem;
+    margin-right: 6rem;
+    margin-left:5rem;
+    border-radius: 10rem;
+
+}
+.hero2{
+    display: flex;
+    
+}
+.mymargin{
+    margin-top: 4rem;
+}
